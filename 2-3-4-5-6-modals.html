@@ -1,0 +1,704 @@
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Apasport</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="dist/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="dist/images/favicon/safari-pinned-tab.svg" color="#1964ae">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="author" content="">
+    <meta name="description" content=""/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="keywords" content=""/>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="dist/libs/bootstrap/css/bootstrap.min.css">
+    <!--owl carousel-->
+    <link rel="stylesheet" href="dist/libs/owl-carousel/owl.carousel.min.css">
+    <!--font awesome icons 5-->
+    <link rel="stylesheet" href="dist/libs/fontawesome-5/css/all.css">
+    <!--custom styles-->
+    <link rel="stylesheet" href="dist/scss/main.css">
+    <link rel="stylesheet" href="dist/scss/responsive.css">
+</head>
+<body>
+
+<!--header-->
+<header>
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center flex_header">
+            <a class="logo_container" href="#">
+                <img src="dist/images/icon/logo.svg" alt="Apasport">
+            </a>
+            <ul class="list-group list-group-horizontal main_menu">
+                <li class="list-group-item list_live">
+                    <a href="#">Canlı hesablar</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">NƏTİCƏLƏR</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">proqnozlar</a>
+                </li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+                <ul class="list-group list-group-horizontal social_main">
+                    <li class="list-group-item">
+                        <a href="#">
+                            <div class="facebook"></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">
+                            <div class="instagram"></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">
+                            <div class="twitter"></div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="search" data-toggle="modal" data-target="#searchModal"></div>
+
+                <div class="dropdown dropdown_user">
+                    <a class="dropdown_toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                       aria-expanded="false">
+                        Mahir Veliyev
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Hesabım</a>
+                        <a class="dropdown-item" href="#">Tənzimləmələr</a>
+                        <a class="dropdown-item" href="#">Çıxış</a>
+                    </div>
+                </div>
+
+                <div class="rp_menu"></div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--header end-->
+
+<!--modal section-->
+<section class="section section_panel">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="sidebar_part">
+                <div class="d-flex align-items-center justify-content-between rp_header">
+                    <ul class="list-group list-group-horizontal social_main">
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="facebook"></div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="instagram"></div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="twitter"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="close"></div>
+                </div>
+                <div class="inner">
+                    <ul class="list-group sidebar_list">
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/football.svg" alt="Futbol">
+                            Futbol
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Azərbaycan</a></li>
+                                <li class="list-group-item"><a href="#">Beynəlxalq oyunlar</a></li>
+                                <li class="list-group-item"><a href="#">Milli çempionatlar</a></li>
+                                <li class="list-group-item"><a href="#">Statistikalar</a></li>
+                                <li class="list-group-item"><a href="#">Xəbərlər</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/ball_games.svg" alt="Top oyunları">
+                            Top oyunları
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Basketbol</a></li>
+                                <li class="list-group-item"><a href="#">Voleybol</a></li>
+                                <li class="list-group-item"><a href="#">Tennis</a></li>
+                                <li class="list-group-item"><a href="#">Digər</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main">
+                            <img src="dist/images/icon/table.svg" alt="cƏDVƏLLƏR">
+                            <a href="#">cƏDVƏLLƏR</a>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/other_type.svg" alt="Dİgər növlər">
+                            Dİgər növlər
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Azərbaycan</a></li>
+                                <li class="list-group-item"><a href="#">Dünya</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/transfers.svg" alt="Transferlər">
+                            Transferlər
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Azərbaycan</a></li>
+                                <li class="list-group-item"><a href="#">Dünya</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main">
+                            <img src="dist/images/icon/stars.svg" alt="Ulduzlar">
+                            <a href="#">Ulduzlar</a>
+                        </li>
+                        <li class="list-group-item list-main">
+                            <img src="dist/images/icon/ofsayd.svg" alt="Ofsayd">
+                            <a href="#">Ofsayd</a>
+                        </li>
+                        <li class="list-group-item list-main">
+                            <img src="dist/images/icon/comment.svg" alt="Mütəxəssİs rəyİ">
+                            <a href="#">Mütəxəssİs rəyİ</a>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/gift.svg" alt="Hədİyyə qazan">
+                            Hədİyyə qazan
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Qaydalar</a></li>
+                                <li class="list-group-item"><a href="#">Oyna qazan</a></li>
+                                <li class="list-group-item"><a href="#">Futbol fantaziyası</a></li>
+                                <li class="list-group-item"><a href="#">Qaliblər</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/forecast.svg" alt="PROQNOZLAR">
+                            PROQNOZLAR
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Bu gün</a></li>
+                                <li class="list-group-item"><a href="#">Sabah</a></li>
+
+                                <li class="list-group-item list-main has-sub">
+                                    İdman növləri üzrə
+                                    <ul class="list-group sub-menu">
+                                        <li class="list-group-item"><a href="#">Bütün növlər</a></li>
+                                        <li class="list-group-item"><a href="#">Futbol</a></li>
+                                        <li class="list-group-item"><a href="#">Tennis</a></li>
+                                        <li class="list-group-item"><a href="#">Basketbol</a></li>
+                                        <li class="list-group-item"><a href="#">Voleybol</a></li>
+                                        <li class="list-group-item"><a href="#">Digər növlər</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="list-group-item"><a href="#">Proqnoz komandamız</a></li>
+                                <li class="list-group-item"><a href="#">Redaksiyanın proqnozu</a></li>
+                                <li class="list-group-item"><a href="#">Statistika</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rp_footer">
+                    <a class="w-100" href="#">
+                        <button class="btn btn_register">Qeydiyyat</button>
+                    </a>
+                </div>
+            </div>
+            <div class="main_content">
+                <!--breadcrumb-->
+                <div class="d-flex justify-content-between align-items-center breadcrumb_container">
+                    <h1 class="page_title">Modals</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="mb-0 p-0 breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Ana səhifə</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Modals</li>
+                        </ol>
+                    </nav>
+                </div>
+                <!--breadcrumb end-->
+
+                <div class="mb-2 card">
+                    <button class="btn btn_success" data-toggle="modal" data-target="#balanceModal">Balansınız artırıld ı modalı</button>
+                </div>
+
+                <div class="mb-2 card">
+                    <button class="btn btn_success" data-toggle="modal" data-target="#terminalModal">ÖDƏNİŞ ÜÇÜN BALANS ARTIMI modalı</button>
+                </div>
+
+                <div class="mb-2 card">
+                    <button class="btn btn_success" data-toggle="modal" data-target="#paymentModal">ÖdənİŞ</button>
+                </div>
+
+                <div class="mb-2 card">
+                    <button class="btn btn_login" data-toggle="modal" data-target="#loginModal">Sayta daxİl olun</button>
+                </div>
+
+                <div class="mb-2 card">
+                    <button class="btn btn_login" data-toggle="modal" data-target="#registerModal">QEYDİYYATDAN KEÇİN</button>
+                </div>
+
+                <div class="mb-2 card">
+                    <button class="btn" data-toggle="modal" data-target="#winnerModal">Qalib seçimi</button>
+                </div>
+
+                <div class="mb-2 card">
+                    <button class="btn" data-toggle="modal" data-target="#winnerSuccessModal">Qalib uğurla seçildi</button>
+                </div>
+
+                <div class="mb-2 card">
+                    <button class="btn btn_success" data-toggle="modal" data-target="#errorModal">Error modalı</button>
+                </div>
+
+                <div class="mb-2 card">
+                    <button class="btn btn_success" data-toggle="modal" data-target="#notBalanceModal">Balans yoxdur modalı</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--modal section end-->
+
+<!--balance success modal-->
+<div class="modal modalType1 fade" id="balanceModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="d-flex align-items-center justify-content-center modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">təbrİklər!</h5>
+            <div class="info">Balansınız artırıldı</div>
+            <img src="dist/images/icon/success_2.svg" alt="">
+            <button type="button" class="btn btn_close" data-dismiss="modal">Bağla</button>
+        </div>
+    </div>
+</div>
+<!--balance success modal end-->
+
+<!--terminal modal-->
+<div class="modal fade" id="terminalModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">ÖDƏNİŞ ÜÇÜN BALANS ARTIMI</h5>
+            <div class="form_part">
+                <form class="mb-0">
+                    <div class="form-group">
+                        <label>Məbləğ</label>
+                        <input type="text" class="form-control" placeholder="AZN ilə">
+                    </div>
+                    <button class="btn btn_balance"><i class="fas fa-upload"></i>Balansı artır</button>
+                </form>
+            </div>
+
+            <div class="terminal_part">
+                <div class="title">Milli Ön üzərindən balansınızı artırın</div>
+                <div class="d-flex align-items-center justify-content-between account_no">
+                    <div class="property">Hesab Nömrəsi:</div>
+                    <div class="value">1077</div>
+                </div>
+                <div class="balance_info" data-toggle="tooltip"
+                     data-placement="top"
+                     title='MilliÖN terminalına yaxınlaşırsınız, "Balans artır" bölməsinə daxil olub, "Apasport.az" bölməsinə keçid edirsiniz.  AZN  xanasını seçirsiniz. Açılan xanada yuxarıdakı hesab nömrənizi yığaraq "davam et" düyməsini sıxırsınız. Balansı artırmaq üçün lazım olan məbləği daxil edib təsdiqləyirsiniz.
+                            Əməliyyatı bitirdikdən sonra məbləğ dərhal Apasport.az saytındakı şəxsi kabinetdəki balansınızda görünəcək.'>
+                    Balansımı necə artırım?
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--terminal modal end-->
+
+<!--payment modal-->
+<div class="modal fade" id="paymentModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-title">ÖdənİŞ</div>
+            <img src="dist/images/icon/success_3.svg" alt="">
+            <div class="d-flex justify-content-between align-items-center coefficient">
+                <div class="property">Əmsal:</div>
+                <div class="value">3.56</div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center price">
+                <div class="property">Qiymət:</div>
+                <div class="value">20 <span>AZN</span></div>
+            </div>
+            <button type="button" class="btn btn_pay" data-dismiss="modal">ÖDƏNİŞ et</button>
+        </div>
+    </div>
+</div>
+<!--payment modal end-->
+
+<!--login modal-->
+<div class="modal modalAuth fade" id="loginModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">Sayta daxİl olun</h5>
+            <form class="mb-0">
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label>Şifrə</label>
+                    <input type="password" class="form-control" placeholder="Şifrə">
+                </div>
+                <button class="btn btn_login">Daxil ol</button>
+                <div class="text-center or">və ya</div>
+                <a href="#">
+                    <button class="btn btn_register">
+                        <div class="icon_container">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        Facebook ilə daxil ol
+                    </button>
+                </a>
+            </form>
+            <div class="d-flex align-items-center justify-content-between other_links">
+                <div>
+                    <a href="#">Şifrəni unutdum</a>
+                </div>
+                <div>
+                    <a class="underlined" href="#">Qeydiyyat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--login modal end-->
+
+<!--register modal-->
+<div class="modal modalAuth fade" id="registerModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">QEYDİYYATDAN KEÇİN</h5>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="user-tab" data-toggle="tab"
+                       href="#user" role="tab" aria-controls="user" aria-selected="true">İstifadəçi</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="author-tab" data-toggle="tab"
+                       href="#author" role="tab" aria-controls="author" aria-selected="false">Proqnoz yazarı</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="user" role="tabpanel" aria-labelledby="user-tab">
+                    <form class="mb-0">
+                        <div class="form-group">
+                            <label>Ad, Soyad</label>
+                            <input type="email" class="form-control" placeholder="Ad və Soyadınız">
+                        </div>
+                        <div class="form-group">
+                            <label>E-mail</label>
+                            <input type="email" class="form-control" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label>Şifrə</label>
+                            <input type="password" class="form-control" placeholder="Şifrə">
+                        </div>
+                        <div class="form-group">
+                            <label>Təkrar şifrə</label>
+                            <input type="password" class="form-control" placeholder="Təkrar şifrə">
+                        </div>
+                        <button class="btn btn_login">Daxil ol</button>
+                        <div class="text-center or">və ya</div>
+                        <a href="#">
+                            <button class="btn btn_register">
+                                <div class="icon_container">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                Facebook ilə daxil ol
+                            </button>
+                        </a>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="author" role="tabpanel" aria-labelledby="author-tab">
+                    <form class="mb-0">
+                        <div class="form-group">
+                            <label>Ad, Soyad</label>
+                            <input type="email" class="form-control" placeholder="Ad və Soyadınız">
+                        </div>
+                        <div class="form-group">
+                            <label>Şifrə</label>
+                            <input type="password" class="form-control" placeholder="Şifrə">
+                        </div>
+                        <div class="form-group">
+                            <label>Təkrar şifrə</label>
+                            <input type="password" class="form-control" placeholder="Təkrar şifrə">
+                        </div>
+                        <button class="btn btn_login">Daxil ol</button>
+                        <div class="text-center or">və ya</div>
+                        <a href="#">
+                            <button class="btn btn_register">
+                                <div class="icon_container">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                Facebook ilə daxil ol
+                            </button>
+                        </a>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center other_links">
+                <div>
+                    <a class="underlined" href="#">Daxil ol</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--register modal end-->
+
+<!--winner modal-->
+<div class="modal fade" id="winnerModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">QALİB SEÇİMİ</h5>
+            <div class="d-flex align-items-top justify-content-between">
+                <div class="left_part">
+                    <div class="wheel_container">
+                        <div id="chart"></div>
+
+                        <div class="wheel_arrow"></div>
+                    </div>
+
+                </div>
+                <div class="right_part">
+                    <div class="video_container">
+                        <iframe width="100%" height="315"
+                                src="https://www.youtube.com/embed/9a1-Jdp5Obg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div class="table_container">
+                        <div class="table-responsive">
+                            <table class="mb-0 table table-striped table_type_3">
+                                <thead>
+                                <tr>
+                                    <th style="width: 35%" scope="col">İstifadəçi adı</th>
+                                    <th scope="col">Soyadı</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr class="c_red">
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                <tr>
+                                    <td>Ali</td>
+                                    <td>Erikov</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--winner modal end-->
+
+<!--winner success modal-->
+<div class="modal fade" id="winnerSuccessModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="d-flex align-items-center justify-content-center modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">təbrİklər!</h5>
+            <div class="info">Beatriz Hannayeva</div>
+            <img src="dist/images/icon/winner_success.svg" alt="">
+            <button type="button" class="btn btn_close" data-dismiss="modal">Bağla</button>
+        </div>
+    </div>
+</div>
+<!--winner success modal end-->
+
+<!--search modal-->
+<div class="modal modalAuth modalSearch fade" id="searchModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">Axtarış edin</h5>
+            <form class="mb-0">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Axtarılacaq sözü daxil edin">
+                </div>
+                <div class="form-group">
+                    <select class="custom-select" id="gender">
+                        <option value="1">Son 1 həftənin xəbərləri</option>
+                        <option value="2">Son 1 ayın xəbərləri</option>
+                        <option value="3">Son 6 ayın xəbərləri</option>
+                        <option value="4">Bütün xəbərlər</option>
+                    </select>
+                </div>
+                <button class="btn btn_login">Axtar</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!--search modal end-->
+
+<!--error modal-->
+<div class="modal modalType2 fade" id="errorModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="d-flex align-items-center justify-content-center modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">Xəta!</h5>
+            <div class="info">Bir xəta baş verdi</div>
+            <img src="dist/images/icon/success_2.svg" alt="">
+            <button type="button" class="btn btn_close" data-dismiss="modal">Bağla</button>
+        </div>
+    </div>
+</div>
+<!--error modal end-->
+
+<!--not balance modal-->
+<div class="modal modalType2 notBalance fade" id="notBalanceModal" tabindex="-1" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="d-flex align-items-center justify-content-center modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">Kifayət qədər balansınız yoxdur!</h5>
+            <div class="info">Zəhmət olmasa balansınızı artırın yenidən cəhd edin</div>
+            <img src="dist/images/icon/not_found.svg" alt="">
+            <button type="button" class="btn btn_close" data-dismiss="modal">Bağla</button>
+        </div>
+    </div>
+</div>
+<!--not balance modal end-->
+
+<!--footer-->
+<footer>
+    <div class="footer_top">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="side_part">
+                    <a href="#">
+                        <img src="dist/images/icon/logo_2.svg" alt="Apasport">
+                    </a>
+                    <div class="info">
+                        APA GROUP daxil olan saytlar uzerlər tərəfindən tam dəstəklənir. Müəllif hüquqları qorunur.
+                        Məlumatdan istifadə etdikdə istinad mütləqdir. Məlumat internet səhifələrində istifadə edildikdə
+                        müvafiq keçidin qoyulması mütləqdir.
+                    </div>
+                </div>
+                <div class="menu_part">
+                    <ul class="list-group d-flex flex-row flex-wrap justify-content-between">
+                        <li class="list-group-item"><a href="#">Xəbərlər</a></li>
+                        <li class="list-group-item"><a href="#">DÇ - 2022</a></li>
+                        <li class="list-group-item"><a href="#">Çempionlar Liqası</a></li>
+                        <li class="list-group-item"><a href="#">Gizlilik şərtləri</a></li>
+                        <li class="list-group-item"><a href="#">Futbol</a></li>
+                        <li class="list-group-item"><a href="#">Avro - 2020</a></li>
+                        <li class="list-group-item"><a href="#">Avropa Liqası</a></li>
+                        <li class="list-group-item"><a href="#">Tez-tez verilən suallar</a></li>
+                        <li class="list-group-item"><a href="#">Top oyunları</a></li>
+                        <li class="list-group-item"><a href="#">Tokio - 2020</a></li>
+                        <li class="list-group-item"><a href="#">Millətlər Liqası</a></li>
+                        <li class="list-group-item"><a href="#">Haqqımızda</a></li>
+                        <li class="list-group-item"><a href="#">Cədvəllər</a></li>
+                        <li class="list-group-item"><a href="#">Digər növlər</a></li>
+                        <li class="list-group-item"><a href="#">Mərc təxminləri</a></li>
+                        <li class="list-group-item"><a href="#">Əlaqə</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="#">
+                        <img src="dist/images/icon/apa_group.svg" alt="APA GROUP">
+                    </a>
+                </div>
+                <div class="copyright">
+                    © 2007 - 2020 Bütün müəllif hüquqları qorunur.
+                </div>
+                <div>
+                    <ul class="list-group list-group-horizontal social_main">
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="facebook"></div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="instagram"></div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="twitter"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+</body>
+<!--jquery-->
+<script src="dist/libs/jquery/jquery.min.js"></script>
+<!--bootstrap-->
+<script src="dist/libs/bootstrap/js/popper.min.js"></script>
+<script src="dist/libs/bootstrap/js/bootstrap.min.js"></script>
+<!--owl carousel-->
+<script src="dist/libs/owl-carousel/owl.carousel.min.js"></script>
+<!--wheel lucky spin-->
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<!--custom js-->
+<script src="dist/js/all.min.js"></script>
+</html>

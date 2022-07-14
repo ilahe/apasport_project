@@ -1,0 +1,1154 @@
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1170px; } }
+
+@media (max-width: 1201px) {
+  .modal#winnerModal .modal-dialog {
+    margin: 30px auto;
+    width: calc(100% - 40px); }
+    .modal#winnerModal .modal-dialog .modal-content {
+      background-size: 380px, contain; }
+      .modal#winnerModal .modal-dialog .modal-content .right_part {
+        width: 450px; }
+  header .flex_header .search {
+    margin-right: 30px; }
+  header .flex_header .social_main {
+    margin-right: 30px; }
+  header .flex_header .search_container {
+    right: 165px;
+    width: 540px; }
+  header .flex_header.flex_header_1 .search_container {
+    width: 575px; }
+  .tab_menu.tab_menu_flex {
+    flex-direction: column !important;
+    justify-content: unset !important;
+    align-items: unset !important; }
+    .tab_menu.tab_menu_flex .list-group {
+      margin-bottom: 10px; }
+      .tab_menu.tab_menu_flex .list-group .list-group-item {
+        padding: 10px 0; }
+    .tab_menu.tab_menu_flex .filter_container {
+      padding-bottom: 10px; }
+  .tab_menu.flex_type_1 {
+    padding: 0 10px 0; }
+  footer .footer_top .menu_part .list-group .list-group-item {
+    font-size: 14px;
+    line-height: 23px; }
+  .news_container .news_body {
+    font-size: 16px;
+    line-height: 23px; }
+  .expert_opinion_item .top_part {
+    min-height: 110px;
+    padding: 15px; }
+    .expert_opinion_item .top_part .expert_info {
+      max-width: calc(50% - 10px); }
+      .expert_opinion_item .top_part .expert_info .expert_name {
+        font-size: 14px;
+        line-height: 17px; }
+  .expert_opinion_item .bottom_part {
+    padding: 18px 15px;
+    font-size: 15px;
+    line-height: 21px; }
+  section .more_news_sidebar {
+    width: auto; }
+  section.section_panel .main_content .settings_container form {
+    max-width: 615px; }
+    section.section_panel .main_content .settings_container form .btn_save {
+      margin: 5px 0 10px; }
+  section.section_panel .main_content .contact_content .info_part .contact_info {
+    margin-bottom: 20px; }
+  section.section_panel .main_content .basket_tournament_container .filter_container {
+    flex-wrap: wrap; }
+    section.section_panel .main_content .basket_tournament_container .filter_container .submenu {
+      margin-bottom: 10px; }
+    section.section_panel .main_content .basket_tournament_container .filter_container .filter_selections {
+      width: 100%;
+      justify-content: unset !important; }
+  section.section_panel .main_content .tables_statistics .statistics_item .body .list-group .list-group-item .progress_container .progress {
+    width: 435px; }
+  section.section_panel .main_content .expert_opinion_details_content .side_part {
+    width: 230px; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part {
+    width: calc(100% - 250px); }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .card {
+      padding: 20px 20px 30px; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .opinion_title {
+      font-size: 22px;
+      line-height: 28px;
+      margin-bottom: 15px; }
+  section.section_panel .main_content .account_container .flex_account .side_part {
+    width: 250px; }
+    section.section_panel .main_content .account_container .flex_account .side_part.side_part_card.side_part_card_1 {
+      padding: 10px; }
+      section.section_panel .main_content .account_container .flex_account .side_part.side_part_card.side_part_card_1 .left_bottom .btn_balance {
+        min-width: 100px;
+        font-size: 13px; }
+        section.section_panel .main_content .account_container .flex_account .side_part.side_part_card.side_part_card_1 .left_bottom .btn_balance i {
+          margin-left: 3px;
+          margin-right: 3px;
+          font-size: 12px; }
+  section.section_panel .main_content .account_container .flex_account .main_part {
+    width: calc(100% - 265px); }
+    section.section_panel .main_content .account_container .flex_account .main_part .img_container {
+      width: 60px;
+      height: 60px;
+      margin-right: 10px; }
+    section.section_panel .main_content .account_container .flex_account .main_part .user_code {
+      margin-bottom: 2px; }
+    section.section_panel .main_content .account_container .flex_account .main_part.main_part_1.main_part_terminal {
+      background: url("../images/icon/terminal.svg") #fff right bottom/120px no-repeat;
+      padding: 15px; }
+      section.section_panel .main_content .account_container .flex_account .main_part.main_part_1.main_part_terminal .account_no {
+        max-width: 70%; }
+    section.section_panel .main_content .account_container .flex_account .main_part.main_part_1 .main_bg {
+      background: url("../images/icon/ball_bg.svg") right bottom/140px no-repeat; }
+    section.section_panel .main_content .account_container .flex_account .main_part.main_part_2 {
+      padding: 15px; }
+      section.section_panel .main_content .account_container .flex_account .main_part.main_part_2 .btn_balance {
+        min-width: 110px; }
+        section.section_panel .main_content .account_container .flex_account .main_part.main_part_2 .btn_balance i {
+          margin-left: 4px; }
+      section.section_panel .main_content .account_container .flex_account .main_part.main_part_2 .btn_forecast {
+        min-width: 110px; }
+        section.section_panel .main_content .account_container .flex_account .main_part.main_part_2 .btn_forecast i {
+          margin-right: 2px;
+          margin-left: 4px; }
+      section.section_panel .main_content .account_container .flex_account .main_part.main_part_2 .user_name {
+        font-size: 16px; }
+  section.section_panel .main_content .card_statistics_account {
+    padding: 30px 25px; }
+  section.section_panel .main_content .warning_card {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 20px 20px 20px 75px;
+    background: url("../images/icon/explanation.svg") #fff 20px center/40px 49px no-repeat; }
+  section.section_panel .main_content .forecast_container .forecast_of_team .card_forecast .header {
+    padding: 10px; }
+    section.section_panel .main_content .forecast_container .forecast_of_team .card_forecast .header .main_title {
+      font-size: 13px;
+      line-height: 17px; }
+  section.section_panel .main_content .forecast_container .forecast_of_team .card_forecast .body {
+    padding: 10px; }
+    section.section_panel .main_content .forecast_container .forecast_of_team .card_forecast .body .info {
+      margin-top: 10px;
+      font-size: 13px; }
+    section.section_panel .main_content .forecast_container .forecast_of_team .card_forecast .body .forecast_author {
+      width: 150px;
+      margin-bottom: 10px; }
+    section.section_panel .main_content .forecast_container .forecast_of_team .card_forecast .body .forecast_tools {
+      margin-bottom: 10px; }
+  section.section_panel .main_content .forecast_container .forecast_statistics .card {
+    padding: 15px 0; }
+    section.section_panel .main_content .forecast_container .forecast_statistics .card .col_1 {
+      padding: 0 10px;
+      font-size: 15px;
+      line-height: 18px;
+      width: unset; }
+      section.section_panel .main_content .forecast_container .forecast_statistics .card .col_1 .avatar_container {
+        width: 60px;
+        height: 60px; }
+        section.section_panel .main_content .forecast_container .forecast_statistics .card .col_1 .avatar_container img {
+          width: 60px;
+          height: 60px; }
+    section.section_panel .main_content .forecast_container .forecast_statistics .card .col_2 {
+      width: unset;
+      padding: 0 15px; }
+    section.section_panel .main_content .forecast_container .forecast_statistics .card .col_3 {
+      width: unset;
+      padding: 0 15px; }
+    section.section_panel .main_content .forecast_container .forecast_statistics .card .col_4 {
+      width: 40%;
+      padding: 0 15px; }
+  section.section_main .center_part {
+    width: calc(100% - 460px); }
+  section.section_main .right_part {
+    width: 250px; }
+    section.section_main .right_part .tab_container {
+      margin-bottom: 15px; }
+      section.section_main .right_part .tab_container .nav-tabs {
+        padding: 0 5px; }
+    section.section_main .right_part .opinion_container .expert_opinion_item .top_part {
+      padding: 10px;
+      min-height: 95px; }
+    section.section_main .right_part .opinion_container .expert_opinion_item .bottom_part {
+      padding: 12px 15px; }
+  .tableCollapsed tr.collapse_row li {
+    min-width: 185px;
+    width: 100%; } }
+
+@media (max-width: 992px) {
+  .modal.modalForecast .modal-dialog {
+    width: calc(100% - 20px); }
+    .modal.modalForecast .modal-dialog .modal-content .modal-title {
+      font-size: 16px; }
+    .modal.modalForecast .modal-dialog .modal-content .close {
+      width: 13px;
+      height: 13px;
+      right: 15px;
+      top: 15px; }
+    .modal.modalForecast .modal-dialog .modal-content .table_container .table td {
+      padding: 6px 10px; }
+    .modal.modalForecast .modal-dialog .modal-content .table_container .table thead th {
+      padding: 10px 10px; }
+  .modal.modalForecast#statisticsModal .modal-dialog .modal-content {
+    padding: 15px; }
+  .modal.modalForecast#chartModal .modal-dialog .modal-content {
+    padding: 15px; }
+    .modal.modalForecast#chartModal .modal-dialog .modal-content .filter_container {
+      margin-left: 0;
+      flex-direction: unset !important; }
+    .modal.modalForecast#chartModal .modal-dialog .modal-content .modal-title {
+      width: 100%;
+      margin-bottom: 5px !important; }
+  .modal#winnerModal .modal-dialog .modal-content {
+    background-size: 330px, contain;
+    background-position: 25px calc(100% - 28px), left bottom; }
+    .modal#winnerModal .modal-dialog .modal-content .left_part {
+      width: 330px; }
+      .modal#winnerModal .modal-dialog .modal-content .left_part .wheel_container {
+        height: 330px; }
+        .modal#winnerModal .modal-dialog .modal-content .left_part .wheel_container #chart {
+          width: 330px;
+          height: 330px; }
+    .modal#winnerModal .modal-dialog .modal-content .right_part {
+      width: 330px; }
+      .modal#winnerModal .modal-dialog .modal-content .right_part .video_container iframe {
+        height: 250px; }
+      .modal#winnerModal .modal-dialog .modal-content .right_part .table_container {
+        height: 230px; }
+  header .flex_header .logo_container img {
+    width: 150px; }
+  header .flex_header .main_menu {
+    display: none; }
+  header .flex_header.flex_header_1 .rp_menu {
+    margin-left: 0; }
+  header .flex_header .header_register {
+    display: none; }
+  header .flex_header .dropdown_user {
+    width: 20px;
+    padding-right: 0;
+    color: transparent;
+    position: relative;
+    background: url("../images/icon/user.svg") right center/17px no-repeat; }
+    header .flex_header .dropdown_user .dropdown_toggle {
+      background: none;
+      padding-right: 0;
+      width: 100%; }
+    header .flex_header .dropdown_user .dropdown-menu {
+      left: unset !important;
+      right: -68px;
+      top: -13px !important;
+      padding: 10px;
+      min-width: unset; }
+      header .flex_header .dropdown_user .dropdown-menu:before {
+        display: none; }
+      header .flex_header .dropdown_user .dropdown-menu .dropdown-item {
+        padding: 0 0 5px;
+        font-size: 14px;
+        line-height: 17px; }
+  header .flex_header .search {
+    margin-right: 50px; }
+  header .flex_header .rp_menu {
+    display: block; }
+  header .flex_header .social_main {
+    display: none; }
+  header .flex_header .search_container {
+    width: 100% !important;
+    right: 0 !important; }
+  footer .footer_top {
+    padding: 35px 0 20px; }
+    footer .footer_top .d-flex {
+      flex-direction: column; }
+    footer .footer_top .side_part {
+      width: 70%;
+      margin-bottom: 10px; }
+    footer .footer_top .menu_part {
+      width: 100%; }
+  section .sidebar_part {
+    display: none;
+    top: unset !important; }
+    section .sidebar_part .rp_header, section .sidebar_part .rp_footer {
+      display: flex !important; }
+    section .sidebar_part.opened {
+      display: block !important; }
+  section.section_panel .main_content {
+    width: 100%;
+    margin-left: 0; }
+    section.section_panel .main_content .privacy_content, section.section_panel .main_content .about_content {
+      padding: 39px 35px 50px;
+      font-size: 15px;
+      line-height: 24px; }
+    section.section_panel .main_content .basketball_results_container .filter_container,
+    section.section_panel .main_content .basket_table_container .filter_container {
+      flex-wrap: wrap;
+      padding: 10px 8px 0; }
+      section.section_panel .main_content .basketball_results_container .filter_container .filter_select, section.section_panel .main_content .basketball_results_container .filter_container .datetime_select,
+      section.section_panel .main_content .basket_table_container .filter_container .filter_select,
+      section.section_panel .main_content .basket_table_container .filter_container .datetime_select {
+        width: calc(50% - 5px);
+        margin-bottom: 10px;
+        margin-right: 0; }
+    section.section_panel .main_content .winners_card {
+      padding: 15px; }
+      section.section_panel .main_content .winners_card table td, section.section_panel .main_content .winners_card table th {
+        padding: 15px 0; }
+      section.section_panel .main_content .winners_card .cup {
+        width: 35px;
+        height: 35px; }
+      section.section_panel .main_content .winners_card .medal {
+        width: 35px;
+        height: 43px; }
+      section.section_panel .main_content .winners_card .subscriber_avatar {
+        margin-right: 10px;
+        width: 50px;
+        height: 50px; }
+        section.section_panel .main_content .winners_card .subscriber_avatar img {
+          width: 50px;
+          height: 50px; }
+      section.section_panel .main_content .winners_card .subscriber_name {
+        font-size: 14px;
+        line-height: 17px; }
+      section.section_panel .main_content .winners_card .prise {
+        width: 30px;
+        height: 26px; }
+    section.section_panel .main_content.inFixed {
+      margin-left: 0; }
+  section.section_main .top_main_container {
+    flex-direction: column; }
+  section.section_main .center_part {
+    width: 100%;
+    margin-bottom: 20px; }
+  section.section_main .right_part {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    section.section_main .right_part .tab_container, section.section_main .right_part .opinion_container {
+      min-width: 280px;
+      width: calc(50% - 10px);
+      margin-bottom: 0; }
+  section.section_editor .main_news {
+    margin-bottom: 20px; }
+    section.section_editor .main_news .main_img {
+      width: 100%;
+      height: auto; }
+    section.section_editor .main_news .news_info {
+      padding: 10px;
+      height: auto; }
+      section.section_editor .main_news .news_info .news_title {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px; }
+  section.section_editor .side_news {
+    padding: 0 15px; }
+    section.section_editor .side_news .list-group .list-group-item {
+      padding: 15px 0; }
+      section.section_editor .side_news .list-group .list-group-item .news_info .news_title {
+        font-size: 14px;
+        line-height: 19px; }
+  section.section_news .news_container .news_title {
+    font-size: 14px !important;
+    line-height: 18px !important; }
+  section.section_news.section_news_1 {
+    padding: 20px 0; }
+    section.section_news.section_news_1 .card_news {
+      padding: 15px; }
+    section.section_news.section_news_1 .header_part {
+      margin-bottom: 15px; }
+  .items.item_1 {
+    display: none !important; }
+    .items.item_1 img {
+      width: calc(100% - 20px);
+      height: 70px; } }
+
+@media (max-width: 800px) {
+  .modal#rulesModal .modal-dialog {
+    max-width: 770px;
+    width: calc(100% - 20px); }
+    .modal#rulesModal .modal-dialog .modal-content {
+      padding: 15px; }
+      .modal#rulesModal .modal-dialog .modal-content .modal-title {
+        font-size: 17px;
+        line-height: 23px;
+        margin-bottom: 15px; }
+      .modal#rulesModal .modal-dialog .modal-content .custom-control {
+        margin: 10px auto 0; }
+      .modal#rulesModal .modal-dialog .modal-content .info {
+        font-size: 14px;
+        line-height: 21px;
+        padding-right: 5px;
+        max-height: 80vh; }
+  .operations_card.answered_card {
+    padding: 10px; }
+    .operations_card.answered_card .accordion .card .card-body {
+      padding: 10px; }
+      .operations_card.answered_card .accordion .card .card-body table td {
+        padding: 5px; } }
+
+@media (max-width: 992px) and (min-width: 768px) {
+  section.section_win_game .question_card {
+    padding: 12px; }
+    section.section_win_game .question_card .question_type {
+      font-size: 16px;
+      margin-bottom: 5px; }
+    section.section_win_game .question_card .question {
+      font-size: 14px;
+      margin-bottom: 15px; }
+    section.section_win_game .question_card .answers {
+      font-size: 13px; }
+    section.section_win_game .question_card .btn_answer {
+      position: unset;
+      float: right;
+      min-width: 78px;
+      height: 30px;
+      line-height: 15px; } }
+
+@media (max-width: 1201px) and (min-width: 768px) {
+  section.section_news_table .news_container {
+    flex-wrap: wrap; }
+    section.section_news_table .news_container .card_main_news {
+      width: 100%;
+      margin-bottom: 10px; }
+      section.section_news_table .news_container .card_main_news img {
+        width: 100%;
+        height: 250px; }
+    section.section_news_table .news_container .card_side_news {
+      width: 100%; } }
+
+@media (max-width: 768px) {
+  .operations_card {
+    padding: 15px; }
+    .operations_card .pagination {
+      margin-top: 20px;
+      margin-bottom: 10px; }
+      .operations_card .pagination .page-item .page-link {
+        font-size: 14px; }
+  .result_filter form {
+    flex-direction: column !important; }
+    .result_filter form .form-group {
+      width: 100% !important;
+      margin-bottom: 10px; }
+    .result_filter form .btn_search {
+      width: 100%; }
+  .modal#winnerModal .modal-dialog .modal-content {
+    background-image: none;
+    padding: 15px 10px; }
+    .modal#winnerModal .modal-dialog .modal-content .d-flex {
+      flex-direction: column; }
+    .modal#winnerModal .modal-dialog .modal-content .left_part {
+      width: 100%; }
+      .modal#winnerModal .modal-dialog .modal-content .left_part .wheel_container {
+        width: 320px;
+        height: 320px;
+        margin: 0 auto 20px; }
+        .modal#winnerModal .modal-dialog .modal-content .left_part .wheel_container #chart {
+          width: 320px;
+          height: 320px; }
+    .modal#winnerModal .modal-dialog .modal-content .right_part {
+      width: 100%; }
+      .modal#winnerModal .modal-dialog .modal-content .right_part .video_container iframe {
+        height: 200px; }
+      .modal#winnerModal .modal-dialog .modal-content .right_part .table_container {
+        height: 230px; }
+  .items.item_2 img {
+    margin-bottom: 20px;
+    height: 250px; }
+  .items.item_3 img {
+    margin-bottom: 10px; }
+  .question_card {
+    padding: 15px; }
+    .question_card .question {
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 20px; }
+    .question_card .custom-control {
+      margin-bottom: 10px; }
+    .question_card .d-flex {
+      justify-content: flex-end; }
+    .question_card .btn_answer {
+      min-width: 96px;
+      height: 35px;
+      font-size: 14px;
+      line-height: 17px;
+      position: unset;
+      float: right; }
+    .question_card.type_2 .btn_results {
+      min-width: 96px;
+      height: 35px;
+      font-size: 14px;
+      line-height: 17px;
+      position: unset;
+      margin-left: 10px; }
+  .filter_score {
+    flex-direction: column;
+    align-items: unset !important; }
+    .filter_score > div {
+      margin-bottom: 10px; }
+      .filter_score > div:last-child {
+        margin-bottom: 0; }
+  footer .footer_bottom {
+    padding: 20px 0; }
+    footer .footer_bottom .d-flex {
+      flex-direction: column; }
+      footer .footer_bottom .d-flex .copyright {
+        margin: 12px 0; }
+  .tab_menu {
+    padding: 0 15px; }
+    .tab_menu .list-group .list-group-item {
+      margin-right: 25px;
+      padding: 8px 0;
+      font-size: 15px; }
+    .tab_menu.flex_type_1 .form_team {
+      flex-direction: column !important;
+      width: 100%; }
+      .tab_menu.flex_type_1 .form_team .form-group {
+        margin-bottom: 10px !important;
+        width: 100%; }
+        .tab_menu.flex_type_1 .form_team .form-group:last-child {
+          margin-bottom: 0 !important; }
+        .tab_menu.flex_type_1 .form_team .form-group .form-control {
+          width: 100%; }
+  section.section_panel {
+    padding: 20px 0 50px; }
+    section.section_panel .main_content .subscriber_container .subscriber_avatar {
+      font-size: 17px; }
+    section.section_panel .main_content .subscriber_container .subscriber_name {
+      font-size: 16px; }
+    section.section_panel .main_content .privacy_content {
+      padding: 20px 15px 30px;
+      font-size: 14px;
+      line-height: 23px; }
+      section.section_panel .main_content .privacy_content.gift_rules {
+        padding: 20px;
+        font-size: 13px;
+        line-height: 21px; }
+        section.section_panel .main_content .privacy_content.gift_rules .no {
+          margin-right: 8px;
+          font-size: 28px; }
+    section.section_panel .main_content .about_content {
+      padding: 30px 15px;
+      font-size: 14px;
+      line-height: 23px; }
+      section.section_panel .main_content .about_content .logo_container {
+        margin-bottom: 20px; }
+        section.section_panel .main_content .about_content .logo_container img {
+          width: 110px; }
+    section.section_panel .main_content .news_content .pagination {
+      margin-top: 0; }
+    section.section_panel .main_content .expert_opinion_content .pagination {
+      margin-top: 20px; }
+    section.section_panel .main_content .city_table_container .card:first-child {
+      margin-bottom: 20px; }
+    section.section_panel .main_content .questions_content .accordion_questions .card {
+      font-size: 14px;
+      line-height: 19px; }
+      section.section_panel .main_content .questions_content .accordion_questions .card .card-header {
+        padding: 15px 40px 15px 15px; }
+      section.section_panel .main_content .questions_content .accordion_questions .card .card-body {
+        padding: 15px; }
+    section.section_panel .main_content .contact_content {
+      padding: 15px 15px; }
+      section.section_panel .main_content .contact_content .flex_main {
+        flex-direction: column; }
+      section.section_panel .main_content .contact_content .form_part {
+        width: 100%;
+        margin-bottom: 20px; }
+      section.section_panel .main_content .contact_content .info_part {
+        width: 100%; }
+        section.section_panel .main_content .contact_content .info_part .contact_info {
+          margin-bottom: 0; }
+    section.section_panel .main_content .statistics_content .statistics_item .card_header {
+      padding: 12px 15px;
+      font-size: 14px; }
+    section.section_panel .main_content .statistics_content .statistics_item .card_body {
+      padding: 15px; }
+    section.section_panel .main_content .statistics_content .pagination {
+      margin-top: 20px; }
+    section.section_panel .main_content .tables_statistics .statistics_item .body .list-group .list-group-item {
+      padding: 10px; }
+      section.section_panel .main_content .tables_statistics .statistics_item .body .list-group .list-group-item .progress_container .progress {
+        width: 225px; }
+    section.section_panel .main_content .expert_opinion_details_content {
+      flex-direction: column !important; }
+      section.section_panel .main_content .expert_opinion_details_content .side_part {
+        width: 100%;
+        margin-top: 20px; }
+        section.section_panel .main_content .expert_opinion_details_content .side_part.sideNav {
+          position: relative;
+          max-height: unset;
+          right: unset !important; }
+      section.section_panel .main_content .expert_opinion_details_content .main_part {
+        width: 100%; }
+        section.section_panel .main_content .expert_opinion_details_content .main_part .card {
+          padding: 15px; }
+        section.section_panel .main_content .expert_opinion_details_content .main_part .opinion_title {
+          font-size: 20px;
+          line-height: 24px; }
+        section.section_panel .main_content .expert_opinion_details_content .main_part .opinion_tools {
+          position: relative; }
+          section.section_panel .main_content .expert_opinion_details_content .main_part .opinion_tools .btn-group:first-child {
+            position: unset !important; }
+          section.section_panel .main_content .expert_opinion_details_content .main_part .opinion_tools .dropup .dropdown-menu {
+            left: unset !important;
+            right: -55px !important; }
+    section.section_panel .main_content .account_container .flex_account {
+      flex-direction: column !important; }
+      section.section_panel .main_content .account_container .flex_account .side_part {
+        width: 100%; }
+        section.section_panel .main_content .account_container .flex_account .side_part.side_part_table table {
+          width: 100%; }
+      section.section_panel .main_content .account_container .flex_account .main_part {
+        width: 100%; }
+    section.section_panel .main_content .author_info {
+      padding: 15px;
+      margin-bottom: 20px;
+      flex-direction: column !important;
+      text-align: center; }
+      section.section_panel .main_content .author_info .left_part {
+        width: 100%;
+        margin-bottom: 10px; }
+        section.section_panel .main_content .author_info .left_part .author_avatar {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto 10px; }
+        section.section_panel .main_content .author_info .left_part .btn {
+          width: auto;
+          min-width: 100px; }
+      section.section_panel .main_content .author_info .right_part {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px; }
+    section.section_panel .main_content .card_statistics_account {
+      padding: 15px; }
+      section.section_panel .main_content .card_statistics_account .datetime_select {
+        width: 200px;
+        top: 15px;
+        right: 15px; }
+      section.section_panel .main_content .card_statistics_account .chart_part .chart_item .value {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 0; }
+      section.section_panel .main_content .card_statistics_account .chart_part .chart_item .chart_container {
+        width: 140px; }
+      section.section_panel .main_content .card_statistics_account .bookmaker_part {
+        padding: 20px 0; }
+        section.section_panel .main_content .card_statistics_account .bookmaker_part .title {
+          margin-bottom: 0; }
+      section.section_panel .main_content .card_statistics_account .bets_part .title {
+        margin-bottom: 10px; }
+    section.section_panel .main_content .author_comments {
+      padding: 15px; }
+      section.section_panel .main_content .author_comments .list-group .list-group-item {
+        padding: 10px 0; }
+    section.section_panel .main_content .author_subscribers {
+      padding: 15px; }
+      section.section_panel .main_content .author_subscribers .list-group .list-group-item {
+        padding: 15px 0; }
+      section.section_panel .main_content .author_subscribers .btn.btn_more {
+        margin-top: 15px; }
+    section.section_panel .main_content .forecast_container .forecast_of_team .pagination {
+      margin-top: 10px; }
+    section.section_panel .main_content .forecast_container .forecast_slider .owl_forecast .item {
+      max-width: 70px; }
+      section.section_panel .main_content .forecast_container .forecast_slider .owl_forecast .item .avatar_container {
+        width: 70px;
+        height: 70px; }
+    section.section_panel .main_content .forecast_container .forecast_statistics .card {
+      overflow-x: auto; }
+      section.section_panel .main_content .forecast_container .forecast_statistics .card .col_1 {
+        min-width: 125px; }
+      section.section_panel .main_content .forecast_container .forecast_statistics .card .col_2 {
+        min-width: 100px; }
+      section.section_panel .main_content .forecast_container .forecast_statistics .card .col_3 {
+        min-width: 240px; }
+      section.section_panel .main_content .forecast_container .forecast_statistics .card .col_4 {
+        min-width: 270px; }
+    section.section_panel .main_content .forecast_container .forecast_statistics .more_container {
+      margin-top: 20px; }
+    section.section_panel .main_content .forecast_container .forecast_payment {
+      padding: 15px; }
+      section.section_panel .main_content .forecast_container .forecast_payment .title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 20px;
+        text-align: center; }
+      section.section_panel .main_content .forecast_container .forecast_payment .btn_pay {
+        min-width: 200px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 23px; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .comments_container .card_comments .card_footer {
+      padding: 15px; }
+      section.section_panel .main_content .expert_opinion_details_content .main_part .comments_container .card_comments .card_footer form {
+        width: calc(100% - 50px); }
+        section.section_panel .main_content .expert_opinion_details_content .main_part .comments_container .card_comments .card_footer form .form-group {
+          width: calc(100% - 85px); }
+        section.section_panel .main_content .expert_opinion_details_content .main_part .comments_container .card_comments .card_footer form .btn_send {
+          min-width: 75px; }
+    section.section_panel .main_content .register_container {
+      width: 100%;
+      padding: 15px; }
+      section.section_panel .main_content .register_container .tab-content {
+        padding-top: 20px; }
+    section.section_panel .main_content .account_container .account_forecasts .forecast_header {
+      padding: 10px; }
+      section.section_panel .main_content .account_container .account_forecasts .forecast_header .btn {
+        min-width: 115px; }
+    section.section_panel .main_content .account_container .account_forecasts .forecast_body {
+      padding: 10px; }
+      section.section_panel .main_content .account_container .account_forecasts .forecast_body .list-group .list-group-item {
+        padding: 10px 0; }
+    section.section_panel .main_content .account_container .account_questions {
+      padding: 15px; }
+      section.section_panel .main_content .account_container .account_questions .list-group .list-group-item {
+        padding: 10px 0; }
+        section.section_panel .main_content .account_container .account_questions .list-group .list-group-item .question_subject {
+          margin-bottom: 7px; }
+        section.section_panel .main_content .account_container .account_questions .list-group .list-group-item .question {
+          font-size: 15px;
+          line-height: 20px;
+          margin-bottom: 3px; }
+    section.section_panel .main_content .account_container .author_subscribers {
+      padding: 15px; }
+      section.section_panel .main_content .account_container .author_subscribers .list-group .list-group-item {
+        padding: 10px 0; }
+    section.section_panel .main_content .tables_calendar .forecast_filter {
+      flex-direction: column; }
+      section.section_panel .main_content .tables_calendar .forecast_filter .filter_select {
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 100%; }
+      section.section_panel .main_content .tables_calendar .forecast_filter .form-group {
+        width: 100%; }
+        section.section_panel .main_content .tables_calendar .forecast_filter .form-group .form-control {
+          width: 100%; }
+    section.section_panel .main_content .basket_statistics_container .filter_flex {
+      flex-direction: column !important;
+      align-items: unset !important; }
+    section.section_panel .main_content .basket_statistics_container .filter_type_1 .submenu {
+      width: 100%;
+      margin-bottom: 10px; }
+    section.section_panel .main_content .basket_statistics_container .filter_type_1 .filter_selections {
+      width: 100%; }
+    section.section_panel .main_content .live_score_container .filter_type_1 {
+      flex-direction: unset !important;
+      flex-wrap: wrap;
+      padding: 10px 10px 0; }
+      section.section_panel .main_content .live_score_container .filter_type_1 .filter_select, section.section_panel .main_content .live_score_container .filter_type_1 .datetime_select {
+        width: calc((100% - 10px) / 2);
+        margin-right: 0;
+        margin-bottom: 10px; }
+    section.section_panel .forget_password_content {
+      width: 100%;
+      margin: 0;
+      padding: 46px 20px 51px;
+      background: url("../images/icon/forgetten.svg") #fff calc(100% - 13px) 34px/116px 199px no-repeat; }
+  section.section_news_slider .slider_container {
+    width: 100%; }
+    section.section_news_slider .slider_container .owl-nav-news {
+      display: none; }
+    section.section_news_slider .slider_container .owl_news .item {
+      max-width: 122px; }
+      section.section_news_slider .slider_container .owl_news .item .img_container {
+        width: 122px;
+        height: 64px;
+        margin-bottom: 7px; }
+      section.section_news_slider .slider_container .owl_news .item .news_title {
+        font-size: 12px;
+        line-height: 15px; }
+  section.section_main .center_part .identificators {
+    display: none !important; }
+  section.section_main .center_part .main_slider_container {
+    width: 100%; }
+    section.section_main .center_part .main_slider_container .owl_main .item img {
+      height: 250px; }
+    section.section_main .center_part .main_slider_container .owl_main .item .news_info {
+      padding: 15px 10px;
+      font-size: 13px;
+      line-height: 18px; }
+      section.section_main .center_part .main_slider_container .owl_main .item .news_info .news_date {
+        margin-top: 4px;
+        font-size: 12px;
+        line-height: 16px;
+        background: url("../images/icon/clock.svg") left center/12px 11px no-repeat;
+        padding-left: 18px; }
+  section.section_main .right_part {
+    flex-direction: column; }
+    section.section_main .right_part .tab_container {
+      width: 100%;
+      margin-bottom: 20px; }
+    section.section_main .right_part .opinion_container {
+      width: 100%; }
+  section.section_main_table .table_container {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+  section.section_main_table.section_main_v2 {
+    padding: 20px 0 0; }
+  section.section_main_table.main_table_v2 {
+    padding: 0; }
+  section.section_news_table {
+    padding: 0; }
+    section.section_news_table .news_container {
+      margin-top: 10px;
+      margin-bottom: 20px; }
+  section.section_win_game .title {
+    margin-bottom: 15px; }
+  section.section_win_game .question_card {
+    margin-bottom: 20px; }
+  section.section_win_game.win_game_v2 {
+    padding: 10px 0 0; } }
+
+@media (max-width: 768px) and (min-width: 576px) {
+  section.section_news_table .news_container .card_side_news .list-group .list-group-item .news_title .d_flex_1 {
+    flex-direction: column;
+    align-items: unset !important; } }
+
+@media (max-width: 576px) {
+  .select_container {
+    padding: 10px; }
+    .select_container form {
+      flex-direction: column !important; }
+    .select_container .btn_search {
+      width: 100%; }
+    .select_container.select_type_1 .custom_select {
+      width: 100%;
+      margin-bottom: 10px; }
+  .success_card {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 10px;
+    background-position: calc(100% - 12px) 50%, 12px 50%;
+    background-size: 33px 55px, 33px 55px; }
+    .success_card div {
+      width: calc(100% - 70px);
+      margin: 0 auto; }
+  .modal.modalForecast#chartModal .modal-dialog .modal-content .filter_container {
+    flex-direction: column !important;
+    width: 100%; }
+    .modal.modalForecast#chartModal .modal-dialog .modal-content .filter_container .filter_select {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px; }
+      .modal.modalForecast#chartModal .modal-dialog .modal-content .filter_container .filter_select:last-child {
+        margin-bottom: 0; }
+  .modal#payModal .modal-dialog, .modal.modalAuth .modal-dialog {
+    max-width: 400px;
+    margin: 10px auto;
+    width: calc(100% - 20px); }
+  .modal#paymentModal .modal-dialog {
+    max-width: 341px;
+    margin: 10px auto;
+    width: calc(100% - 20px); }
+  .modal.modalType1 .modal-dialog, .modal.modalType2 .modal-dialog, .modal#terminalModal .modal-dialog {
+    max-width: 382px;
+    margin: 10px auto;
+    width: calc(100% - 20px); }
+    .modal.modalType1 .modal-dialog .modal-content, .modal.modalType2 .modal-dialog .modal-content, .modal#terminalModal .modal-dialog .modal-content {
+      padding: 15px; }
+      .modal.modalType1 .modal-dialog .modal-content .modal-title, .modal.modalType2 .modal-dialog .modal-content .modal-title, .modal#terminalModal .modal-dialog .modal-content .modal-title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 15px; }
+  .modal.notBalance .modal-dialog {
+    max-width: 500px;
+    margin: 10px auto;
+    width: calc(100% - 10px);
+    text-align: center; }
+    .modal.notBalance .modal-dialog .modal-content .modal-title {
+      margin-top: 27px;
+      font-size: 16px;
+      margin-bottom: 0; }
+    .modal.notBalance .modal-dialog .modal-content .info {
+      font-size: 15px;
+      line-height: 20px; }
+  .modal#payModal .modal-dialog .modal-content {
+    padding: 15px; }
+    .modal#payModal .modal-dialog .modal-content .modal-title {
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 15px; }
+  .modal#winnerSuccessModal .modal-dialog {
+    max-width: 370px;
+    margin: 10px auto;
+    width: calc(100% - 20px); }
+  footer .footer_top .side_part {
+    width: 100%; }
+  footer .footer_top .menu_part .list-group .list-group-item {
+    width: calc(100% / 3);
+    padding: 0 0 5px; }
+  .breadcrumb_container {
+    margin-bottom: 10px; }
+    .breadcrumb_container .page_title {
+      margin-bottom: 5px; }
+    .breadcrumb_container .breadcrumb {
+      line-height: 22px;
+      margin-bottom: 5px; }
+      .breadcrumb_container .breadcrumb .breadcrumb-item a {
+        line-height: 23px; }
+      .breadcrumb_container .breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+        height: 22px; }
+  section.section_panel .main_content .tables_container .filter_container {
+    flex-direction: column !important;
+    padding: 10px 8px 0;
+    align-items: unset !important; }
+    section.section_panel .main_content .tables_container .filter_container .filter_select {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px; }
+    section.section_panel .main_content .tables_container .filter_container .country_title {
+      margin-bottom: 10px;
+      padding-left: 0; }
+  section.section_panel .main_content .account_container .flex_account .side_part {
+    margin-bottom: 20px; }
+  section.section_panel .main_content .account_container .flex_account .main_part {
+    margin-bottom: 20px; }
+    section.section_panel .main_content .account_container .flex_account .main_part.main_part_2 {
+      height: auto;
+      flex-direction: column !important;
+      align-items: unset !important; }
+  section.section_panel .main_content .card_statistics_account .chart_part {
+    flex-direction: column; }
+    section.section_panel .main_content .card_statistics_account .chart_part .chart_item {
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #E1E6EF;
+      padding-bottom: 20px; }
+      section.section_panel .main_content .card_statistics_account .chart_part .chart_item .chart_container {
+        margin: 3px auto; }
+      section.section_panel .main_content .card_statistics_account .chart_part .chart_item:last-child {
+        border-bottom: none;
+        padding-bottom: 0; }
+  section.section_panel .main_content .card_statistics_account .bookmaker_part .d-flex {
+    flex-direction: column; }
+    section.section_panel .main_content .card_statistics_account .bookmaker_part .d-flex .chart_points {
+      width: 100%;
+      flex-direction: unset !important;
+      align-items: center !important;
+      justify-content: center !important; }
+      section.section_panel .main_content .card_statistics_account .bookmaker_part .d-flex .chart_points > div {
+        min-width: unset;
+        margin: 0 10px 10px; }
+      section.section_panel .main_content .card_statistics_account .bookmaker_part .d-flex .chart_points .dot {
+        margin-right: 8px;
+        width: 12px;
+        height: 12px; }
+  section.section_panel .main_content .card_statistics_account .coefficient_part .header_part {
+    flex-direction: column;
+    justify-content: unset !important;
+    align-items: unset !important; }
+  section.section_panel .main_content .author_comments {
+    padding: 10px; }
+    section.section_panel .main_content .author_comments .user {
+      font-size: 12px;
+      line-height: 15px;
+      color: #000; }
+    section.section_panel .main_content .author_comments .comment {
+      font-size: 12px;
+      line-height: 15px; }
+  section.section_panel .main_content .author_questions {
+    padding: 15px; }
+    section.section_panel .main_content .author_questions .not_found_title {
+      margin-bottom: 14px;
+      font-size: 20px;
+      line-height: 28px; }
+  section.section_panel .main_content .forecast_container .forecast_slider .owl-nav-forecast {
+    opacity: 1; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .expert_container .expert_item {
+    margin-bottom: 20px; }
+  section.section_news_table .news_container {
+    flex-wrap: wrap; }
+    section.section_news_table .news_container .card_main_news {
+      width: 100%;
+      margin-bottom: 10px; }
+      section.section_news_table .news_container .card_main_news img {
+        width: 100%;
+        height: 300px; }
+    section.section_news_table .news_container .card_side_news {
+      width: 100%; } }
+
+@media (max-width: 475px) {
+  .modal.modalAuth.modalSearch .modal-dialog .modal-content {
+    padding: 10px 20px 20px; }
+  .question_card {
+    background: #fff; }
+  .tab_menu.tab_menu_flex .filter_container {
+    flex-direction: column !important; }
+    .tab_menu.tab_menu_flex .filter_container .filter_select {
+      width: 100%;
+      margin-bottom: 10px;
+      margin-right: 0; }
+  footer .footer_top .menu_part .list-group .list-group-item {
+    width: 50%; }
+  section.section_panel .main_content .settings_container {
+    padding: 30px 0; }
+    section.section_panel .main_content .settings_container form {
+      max-width: unset;
+      width: 100%; }
+      section.section_panel .main_content .settings_container form .btn_save {
+        min-width: 100%; }
+  section.section_panel .main_content .basketball_results_container .filter_container .filter_select, section.section_panel .main_content .basketball_results_container .filter_container .datetime_select,
+  section.section_panel .main_content .basket_table_container .filter_container .filter_select,
+  section.section_panel .main_content .basket_table_container .filter_container .datetime_select {
+    width: 100%; }
+  section.section_panel .main_content .basket_statistics_container .filter_type_1 .filter_selections {
+    flex-wrap: wrap; }
+    section.section_panel .main_content .basket_statistics_container .filter_type_1 .filter_selections .filter_select {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px; }
+      section.section_panel .main_content .basket_statistics_container .filter_type_1 .filter_selections .filter_select:last-child {
+        margin-bottom: 0; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .gallery_container .gallery_c {
+    width: calc((100% - 30px) / 2); }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .video_container iframe {
+    height: 180px; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .expert_container {
+    justify-content: center;
+    flex-wrap: wrap; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .expert_container .expert_item {
+      width: 100% !important; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .expert_container.three_experts {
+      justify-content: unset; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .forecast_details_card .row_1 {
+    flex-direction: column; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .forecast_details_card .row_1 .forecast_time {
+      margin-top: 10px; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .forecast_details_card .row_2 {
+    flex-direction: column;
+    align-items: unset !important; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .forecast_details_card .row_2 .coefficient {
+      margin-left: 0;
+      margin-top: 5px;
+      padding: 3px 0; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .opinion_tools {
+    flex-direction: column; }
+  section.section_panel .forget_password_content {
+    padding: 20px 15px 50px;
+    background: url("../images/icon/forgetten.svg") #fff calc(100% - 11px) 36px/84px 199px no-repeat; } }
+
+@media (max-width: 425px) {
+  .tooltip-inner {
+    max-width: 300px;
+    padding: 10px; }
+  header .flex_header .search {
+    width: 17px;
+    height: 17px;
+    margin-right: 35px; }
+  header .flex_header .rp_menu {
+    margin-left: 35px; }
+  section.section_panel .reset_password_content {
+    width: 100%;
+    margin: 0;
+    padding: 18px 15px 25px;
+    background: #fff; }
+  section.section_panel .forget_password_content {
+    padding: 20px 15px;
+    background: #fff; }
+    section.section_panel .forget_password_content form {
+      width: 100%; }
+  section.section_panel .basket_tournament_container .filter_container {
+    padding: 10px 8px 0; }
+    section.section_panel .basket_tournament_container .filter_container .filter_selections {
+      flex-wrap: wrap; }
+      section.section_panel .basket_tournament_container .filter_container .filter_selections .filter_select {
+        width: 100% !important;
+        margin-right: 0;
+        margin-bottom: 10px; }
+  section.section_panel .main_content .tables_statistics .statistics_item .body .list-group .list-group-item {
+    padding: 10px; }
+    section.section_panel .main_content .tables_statistics .statistics_item .body .list-group .list-group-item .progress_container .progress {
+      width: 105px; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .opinion_title {
+    font-size: 16px;
+    line-height: 21px; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .opinion_info {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px; }
+  section.section_panel .main_content .expert_opinion_details_content .main_part .expert_item {
+    width: calc(50% - 5px);
+    padding: 7px; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .expert_item .expert_name {
+      font-size: 14px; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .expert_item .expert_avatar {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 10px; }
+      section.section_panel .main_content .expert_opinion_details_content .main_part .expert_item .expert_avatar img {
+        width: 70px;
+        height: 70px; }
+  section.section_panel .main_content .account_container .flex_account .side_part.side_part_card.side_part_card_2 {
+    background: url("../images/icon/balls.svg") center center/450px no-repeat; }
+  section.section_panel .main_content .account_container .flex_account .main_part.main_part_1.main_part_terminal {
+    background: #fff; }
+    section.section_panel .main_content .account_container .flex_account .main_part.main_part_1.main_part_terminal .account_no {
+      max-width: unset; }
+  section.section_panel .main_content .account_container .flex_account .main_part.main_part_1.main_part_user {
+    padding: 12px;
+    height: 120px; }
+  section.section_panel .main_content .account_container .flex_account .main_part.main_part_1 .main_bg {
+    background: url("../images/icon/ball_bg.svg") right calc(100% + 5px)/70px no-repeat; }
+  section.section_panel .main_content .account_container .flex_account .main_part.main_part_1 .user_name {
+    font-size: 18px !important; }
+  section.section_panel .main_content .live_score_container .filter_type_1 .filter_select, section.section_panel .main_content .live_score_container .filter_type_1 .datetime_select {
+    width: 100%; }
+  section.section_panel .main_content .live_score_container .filter_league {
+    flex-direction: column;
+    align-items: unset !important; }
+    section.section_panel .main_content .live_score_container .filter_league .voice {
+      margin-top: 10px;
+      margin-left: 0 !important; }
+  section.section_panel .main_content .live_score_container .filter_score {
+    padding: 10px; }
+    section.section_panel .main_content .live_score_container .filter_score > div {
+      margin-bottom: 0; }
+    section.section_panel .main_content .live_score_container .filter_score .selected {
+      margin-bottom: 10px; }
+    section.section_panel .main_content .live_score_container .filter_score .live_score {
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: 10px; }
+    section.section_panel .main_content .live_score_container .filter_score .bet {
+      margin-left: 0;
+      margin-bottom: 10px; }
+  section.section_news_table .news_container .card_main_news img {
+    height: 200px; } }
+
+@media (max-width: 400px) {
+  section.section_panel .main_content .expert_opinion_details_content .main_part .forecast_details_card .opinion_tools {
+    flex-direction: column;
+    align-items: unset !important; } }
+
+@media (max-width: 375px) {
+  .modal#winnerModal .modal-dialog {
+    width: calc(100% - 20px); }
+    .modal#winnerModal .modal-dialog .modal-content .left_part .wheel_container {
+      width: 280px;
+      height: 280px; }
+      .modal#winnerModal .modal-dialog .modal-content .left_part .wheel_container #chart {
+        width: 280px;
+        height: 280px; } }
+
+@media (max-width: 350px) {
+  section.section_panel .main_content .expert_opinion_details_content .main_part .gallery_container .gallery_c {
+    width: 100%; }
+    section.section_panel .main_content .expert_opinion_details_content .main_part .gallery_container .gallery_c img {
+      height: auto; } }
+
+@media (min-width: 576px) {
+  .modal#payModal .modal-dialog, .modal.modalAuth .modal-dialog {
+    max-width: 400px; }
+  .modal.modalType1 .modal-dialog, .modal.modalType2 .modal-dialog, .modal#terminalModal .modal-dialog {
+    max-width: 382px; }
+  .modal.notBalance .modal-dialog {
+    max-width: 500px; }
+  .modal.modalForecast .modal-dialog {
+    max-width: 970px; }
+  .modal#paymentModal .modal-dialog {
+    max-width: 341px; }
+  .modal#rulesModal .modal-dialog {
+    max-width: 770px; }
+  .modal#winnerModal .modal-dialog {
+    max-width: 1170px; }
+  .modal#winnerSuccessModal .modal-dialog {
+    max-width: 370px; } }

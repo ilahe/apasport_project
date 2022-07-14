@@ -1,0 +1,667 @@
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Apasport</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="dist/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="dist/images/favicon/safari-pinned-tab.svg" color="#1964ae">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="author" content="">
+    <meta name="description" content=""/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="keywords" content=""/>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="dist/libs/bootstrap/css/bootstrap.min.css">
+    <!--datepicker-->
+    <link rel="stylesheet" href="dist/libs/jquery-ui/jquery-ui.min.css">
+    <!--owl carousel-->
+    <link rel="stylesheet" href="dist/libs/owl-carousel/owl.carousel.min.css">
+    <!--font awesome icons 5-->
+    <link rel="stylesheet" href="dist/libs/fontawesome-5/css/all.css">
+    <!--custom styles-->
+    <link rel="stylesheet" href="dist/scss/main.css">
+    <link rel="stylesheet" href="dist/scss/responsive.css">
+</head>
+<body>
+
+<!--header-->
+<header>
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center flex_header">
+            <a class="logo_container" href="#">
+                <img src="dist/images/icon/logo.svg" alt="Apasport">
+            </a>
+            <ul class="list-group list-group-horizontal main_menu">
+                <li class="list-group-item list_live">
+                    <a href="#">Canlı hesablar</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">NƏTİCƏLƏR</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">proqnozlar</a>
+                </li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+                <ul class="list-group list-group-horizontal social_main">
+                    <li class="list-group-item">
+                        <a href="#">
+                            <div class="facebook"></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">
+                            <div class="instagram"></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">
+                            <div class="twitter"></div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="search"></div>
+
+                <div class="d-none search_container">
+                    <form class="mb-0">
+                        <div class="mb-0 form-group">
+                            <input type="text" class="form-control" placeholder="Axtarış...">
+                            <div class="close"></div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="dropdown dropdown_user">
+                    <a class="dropdown_toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                       aria-expanded="false">
+                        Mahir Veliyev
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Hesabım</a>
+                        <a class="dropdown-item" href="#">Tənzimləmələr</a>
+                        <a class="dropdown-item" href="#">Çıxış</a>
+                    </div>
+                </div>
+
+                <div class="rp_menu"></div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--header end-->
+
+<!--basketball results section-->
+<section class="section section_panel">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="sidebar_part">
+                <div class="d-flex align-items-center justify-content-between rp_header">
+                    <ul class="list-group list-group-horizontal social_main">
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="facebook"></div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="instagram"></div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="twitter"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="close"></div>
+                </div>
+                <div class="inner">
+                    <ul class="list-group sidebar_list">
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/football.svg" alt="Futbol">
+                            Futbol
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Azərbaycan</a></li>
+                                <li class="list-group-item"><a href="#">Beynəlxalq oyunlar</a></li>
+                                <li class="list-group-item"><a href="#">Milli çempionatlar</a></li>
+                                <li class="list-group-item"><a href="#">Statistikalar</a></li>
+                                <li class="list-group-item"><a href="#">Xəbərlər</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/ball_games.svg" alt="Top oyunları">
+                            Top oyunları
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Basketbol</a></li>
+                                <li class="list-group-item"><a href="#">Voleybol</a></li>
+                                <li class="list-group-item"><a href="#">Tennis</a></li>
+                                <li class="list-group-item"><a href="#">Digər</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main">
+                            <img src="dist/images/icon/table.svg" alt="cƏDVƏLLƏR">
+                            <a href="#">cƏDVƏLLƏR</a>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/other_type.svg" alt="Dİgər növlər">
+                            Dİgər növlər
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Azərbaycan</a></li>
+                                <li class="list-group-item"><a href="#">Dünya</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/transfers.svg" alt="Transferlər">
+                            Transferlər
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Azərbaycan</a></li>
+                                <li class="list-group-item"><a href="#">Dünya</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main">
+                            <img src="dist/images/icon/stars.svg" alt="Ulduzlar">
+                            <a href="#">Ulduzlar</a>
+                        </li>
+                        <li class="list-group-item list-main">
+                            <img src="dist/images/icon/ofsayd.svg" alt="Ofsayd">
+                            <a href="#">Ofsayd</a>
+                        </li>
+                        <li class="list-group-item list-main">
+                            <img src="dist/images/icon/comment.svg" alt="Mütəxəssİs rəyİ">
+                            <a href="#">Mütəxəssİs rəyİ</a>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/gift.svg" alt="Hədİyyə qazan">
+                            Hədİyyə qazan
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Qaydalar</a></li>
+                                <li class="list-group-item"><a href="#">Oyna qazan</a></li>
+                                <li class="list-group-item"><a href="#">Futbol fantaziyası</a></li>
+                                <li class="list-group-item"><a href="#">Qaliblər</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-main has-sub">
+                            <img src="dist/images/icon/forecast.svg" alt="PROQNOZLAR">
+                            PROQNOZLAR
+                            <ul class="list-group sub-menu">
+                                <li class="list-group-item"><a href="#">Bu gün</a></li>
+                                <li class="list-group-item"><a href="#">Sabah</a></li>
+
+                                <li class="list-group-item list-main has-sub">
+                                    İdman növləri üzrə
+                                    <ul class="list-group sub-menu">
+                                        <li class="list-group-item"><a href="#">Bütün növlər</a></li>
+                                        <li class="list-group-item"><a href="#">Futbol</a></li>
+                                        <li class="list-group-item"><a href="#">Tennis</a></li>
+                                        <li class="list-group-item"><a href="#">Basketbol</a></li>
+                                        <li class="list-group-item"><a href="#">Voleybol</a></li>
+                                        <li class="list-group-item"><a href="#">Digər növlər</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="list-group-item"><a href="#">Proqnoz komandamız</a></li>
+                                <li class="list-group-item"><a href="#">Redaksiyanın proqnozu</a></li>
+                                <li class="list-group-item"><a href="#">Statistika</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rp_footer">
+                    <a class="w-100" href="#">
+                        <button class="btn btn_register">Qeydiyyat</button>
+                    </a>
+                </div>
+            </div>
+            <div class="main_content">
+                <!--breadcrumb-->
+                <div class="d-flex justify-content-between align-items-center breadcrumb_container">
+                    <h1 class="page_title">
+                        Basketbol
+                    </h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="mb-0 p-0 breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Ana səhifə</a></li>
+                            <li class="breadcrumb-item"><a href="#">Top oyunları</a></li>
+                            <li class="breadcrumb-item"><a href="#">Basketbol</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Nəticələr</li>
+                        </ol>
+                    </nav>
+                </div>
+                <!--breadcrumb end-->
+
+                <div class="basketball_results_container">
+                    <div class="card tab_menu">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item active"><a href="#">Nəticələr</a></li>
+                            <li class="list-group-item"><a href="#">Gələcək oyunlar</a></li>
+                            <li class="list-group-item"><a href="#">Turnir cədvəli</a></li>
+                            <li class="list-group-item"><a href="#">Statistika</a></li>
+                            <li class="list-group-item"><a href="#">Xəbərlər</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="card d-flex flex-row align-items-center justify-content-between filter_container filter_type_1">
+                        <div class="dropdown filter_select">
+                            <div class="d-flex align-items-center w-100 h-100 cursor-pointer" id="filter31"
+                                 data-toggle="dropdown" aria-expanded="false">
+                                Oyun növü
+                            </div>
+                            <div class="dropdown-menu" aria-labelledby="filter31">
+                                <a class="dropdown-item" href="#">Oyun növü 1</a>
+                                <a class="dropdown-item" href="#">Oyun növü 2</a>
+                                <a class="dropdown-item" href="#">Oyun növü 3</a>
+                            </div>
+                        </div>
+                        <div class="dropdown filter_select">
+                            <div class="d-flex align-items-center w-100 h-100 cursor-pointer" id="filter11"
+                                 data-toggle="dropdown" aria-expanded="false">
+                                Ölkə
+                            </div>
+                            <div class="dropdown-menu" aria-labelledby="filter11">
+                                <a class="dropdown-item" href="#">Ölkə 1</a>
+                                <a class="dropdown-item" href="#">Ölkə 2</a>
+                                <a class="dropdown-item" href="#">Ölkə 3</a>
+                            </div>
+                        </div>
+                        <div class="dropdown filter_select">
+                            <div class="d-flex align-items-center w-100 h-100 cursor-pointer" id="filter111"
+                                 data-toggle="dropdown" aria-expanded="false">
+                                Çempionat
+                            </div>
+                            <div class="dropdown-menu" aria-labelledby="filter111">
+                                <a class="dropdown-item" href="#">Çempionat 1</a>
+                                <a class="dropdown-item" href="#">Çempionat 2</a>
+                                <a class="dropdown-item" href="#">Çempionat 3</a>
+                            </div>
+                        </div>
+                        <div class="datetime_select">
+                            <div class="mb-0 form-group">
+                                <input type="text" class="form-control datepicker" placeholder="Gələn tarix">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 col-12">
+                            <div class="card card_type_2 overflow-hidden">
+                                <div class="table-responsive">
+                                    <table class="mb-0 table table-striped table_type_2">
+                                        <thead>
+                                        <tr>
+                                            <th colspan="7">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="ball" src="dist/images/icon/basket_ball.svg" alt="">
+                                                    <img class="flag" src="dist/images/icon/flag_Azerbaijan.svg" alt="">
+                                                    <b>Tayvan</b> - Süper Lig
+                                                </div>
+                                            </th>
+                                            <th class="text-center">IY</th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="c_gray" width="80">13:00</td>
+                                            <td class="text-center" width="80"><b>MS</b></td>
+                                            <td class="text-center">
+                                                <img src="dist/images/icon/turkey.svg" alt="Türkiyə">
+                                            </td>
+                                            <td class="text-right">
+                                                Bank of Taiwan
+                                            </td>
+                                            <td><div class="versus">85 - 82</div></td>
+                                            <td>
+                                                Yulon Luxgen Dinos
+                                            </td>
+                                            <td class="text-center">
+                                                <img src="dist/images/icon/turkey.svg" alt="Türkiyə">
+                                            </td>
+                                            <td class="text-center">44-6</td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/bet_2.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/transfer.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <div class="star"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="c_gray" width="80">13:00</td>
+                                            <td class="text-center c_red" width="80"><b>2P 8:52</b></td>
+                                            <td class="text-center">
+                                            </td>
+                                            <td class="text-right">
+                                                Pauian Archiland
+                                            </td>
+                                            <td> <div class="versus">25 - 26</div></td>
+                                            <td>
+                                                Jeoutai Technology Basket
+                                            </td>
+                                            <td class="text-center">
+                                            </td>
+                                            <td class="text-center"></td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/bet_2.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/transfer.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <div class="star active"></div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                        <thead>
+                                        <tr>
+                                            <th colspan="7">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="ball" src="dist/images/icon/basket_ball.svg" alt="">
+                                                    <img class="flag" src="dist/images/icon/flag_Azerbaijan.svg" alt="">
+                                                    <b>Tayvan</b> - Süper Lig
+                                                </div>
+                                            </th>
+                                            <th class="text-center">IY</th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="c_gray" width="80">13:00</td>
+                                            <td class="text-center" width="80"><b>MS</b></td>
+                                            <td class="text-center">
+                                                <img src="dist/images/icon/turkey.svg" alt="Türkiyə">
+                                            </td>
+                                            <td class="text-right">
+                                                Bank of Taiwan
+                                            </td>
+                                            <td><div class="versus">85 - 82</div></td>
+                                            <td>
+                                                Yulon Luxgen Dinos
+                                            </td>
+                                            <td class="text-center">
+                                                <img src="dist/images/icon/turkey.svg" alt="Türkiyə">
+                                            </td>
+                                            <td class="text-center">44-6</td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/bet_2.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/transfer.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <div class="star"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="c_gray" width="80">13:00</td>
+                                            <td class="text-center c_red" width="80"><b>2P 8:52</b></td>
+                                            <td class="text-center">
+                                            </td>
+                                            <td class="text-right">
+                                                Pauian Archiland
+                                            </td>
+                                            <td> <div class="versus">25 - 26</div></td>
+                                            <td>
+                                                Jeoutai Technology Basket
+                                            </td>
+                                            <td class="text-center">
+                                            </td>
+                                            <td class="text-center"></td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/bet_2.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/transfer.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <div class="star active"></div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                        <thead>
+                                        <tr>
+                                            <th colspan="7">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="ball" src="dist/images/icon/basket_ball.svg" alt="">
+                                                    <img class="flag" src="dist/images/icon/flag_Azerbaijan.svg" alt="">
+                                                    <b>Tayvan</b> - Süper Lig
+                                                </div>
+                                            </th>
+                                            <th class="text-center">IY</th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="c_gray" width="80">13:00</td>
+                                            <td class="text-center" width="80"><b>MS</b></td>
+                                            <td class="text-center">
+                                                <img src="dist/images/icon/turkey.svg" alt="Türkiyə">
+                                            </td>
+                                            <td class="text-right">
+                                                Bank of Taiwan
+                                            </td>
+                                            <td><div class="versus">85 - 82</div></td>
+                                            <td>
+                                                Yulon Luxgen Dinos
+                                            </td>
+                                            <td class="text-center">
+                                                <img src="dist/images/icon/turkey.svg" alt="Türkiyə">
+                                            </td>
+                                            <td class="text-center">44-6</td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/bet_2.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/transfer.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <div class="star active"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="c_gray" width="80">13:00</td>
+                                            <td class="text-center c_red" width="80"><b>2P 8:52</b></td>
+                                            <td class="text-center">
+                                            </td>
+                                            <td class="text-right">
+                                                Pauian Archiland
+                                            </td>
+                                            <td> <div class="versus">25 - 26</div></td>
+                                            <td>
+                                                Jeoutai Technology Basket
+                                            </td>
+                                            <td class="text-center">
+                                            </td>
+                                            <td class="text-center"></td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/bet_2.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/transfer.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <div class="star active"></div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                        <thead>
+                                        <tr>
+                                            <th colspan="7">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="ball" src="dist/images/icon/basket_ball.svg" alt="">
+                                                    <img class="flag" src="dist/images/icon/flag_Azerbaijan.svg" alt="">
+                                                    <b>Tayvan</b> - Süper Lig
+                                                </div>
+                                            </th>
+                                            <th class="text-center">IY</th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td class="c_gray" width="80">13:00</td>
+                                            <td class="text-center" width="80"><b>MS</b></td>
+                                            <td class="text-center">
+                                                <img src="dist/images/icon/turkey.svg" alt="Türkiyə">
+                                            </td>
+                                            <td class="text-right">
+                                                Bank of Taiwan
+                                            </td>
+                                            <td><div class="versus">85 - 82</div></td>
+                                            <td>
+                                                Yulon Luxgen Dinos
+                                            </td>
+                                            <td class="text-center">
+                                                <img src="dist/images/icon/turkey.svg" alt="Türkiyə">
+                                            </td>
+                                            <td class="text-center">44-6</td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/bet_2.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/transfer.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <div class="star"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="c_gray" width="80">13:00</td>
+                                            <td class="text-center c_red" width="80"><b>2P 8:52</b></td>
+                                            <td class="text-center">
+                                            </td>
+                                            <td class="text-right">
+                                                Pauian Archiland
+                                            </td>
+                                            <td> <div class="versus">25 - 26</div></td>
+                                            <td>
+                                                Jeoutai Technology Basket
+                                            </td>
+                                            <td class="text-center">
+                                            </td>
+                                            <td class="text-center"></td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/bet_2.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <img src="dist/images/icon/transfer.svg" alt="">
+                                            </td>
+                                            <td style="width: 20px">
+                                                <div class="star active"></div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--basketball results section end-->
+
+<!--footer-->
+<footer>
+    <div class="footer_top">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="side_part">
+                    <a href="#">
+                        <img src="dist/images/icon/logo_2.svg" alt="Apasport">
+                    </a>
+                    <div class="info">
+                        APA GROUP daxil olan saytlar uzerlər tərəfindən tam dəstəklənir. Müəllif hüquqları qorunur.
+                        Məlumatdan istifadə etdikdə istinad mütləqdir. Məlumat internet səhifələrində istifadə edildikdə
+                        müvafiq keçidin qoyulması mütləqdir.
+                    </div>
+                </div>
+                <div class="menu_part">
+                    <ul class="list-group d-flex flex-row flex-wrap justify-content-between">
+                        <li class="list-group-item"><a href="#">Xəbərlər</a></li>
+                        <li class="list-group-item"><a href="#">DÇ - 2022</a></li>
+                        <li class="list-group-item"><a href="#">Çempionlar Liqası</a></li>
+                        <li class="list-group-item"><a href="#">Gizlilik şərtləri</a></li>
+                        <li class="list-group-item"><a href="#">Futbol</a></li>
+                        <li class="list-group-item"><a href="#">Avro - 2020</a></li>
+                        <li class="list-group-item"><a href="#">Avropa Liqası</a></li>
+                        <li class="list-group-item"><a href="#">Tez-tez verilən suallar</a></li>
+                        <li class="list-group-item"><a href="#">Top oyunları</a></li>
+                        <li class="list-group-item"><a href="#">Tokio - 2020</a></li>
+                        <li class="list-group-item"><a href="#">Millətlər Liqası</a></li>
+                        <li class="list-group-item"><a href="#">Haqqımızda</a></li>
+                        <li class="list-group-item"><a href="#">Cədvəllər</a></li>
+                        <li class="list-group-item"><a href="#">Digər növlər</a></li>
+                        <li class="list-group-item"><a href="#">Mərc təxminləri</a></li>
+                        <li class="list-group-item"><a href="#">Əlaqə</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="#">
+                        <img src="dist/images/icon/apa_group.svg" alt="APA GROUP">
+                    </a>
+                </div>
+                <div class="copyright">
+                    © 2007 - 2020 Bütün müəllif hüquqları qorunur.
+                </div>
+                <div>
+                    <ul class="list-group list-group-horizontal social_main">
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="facebook"></div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="instagram"></div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="twitter"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+</body>
+<!--jquery-->
+<script src="dist/libs/jquery/jquery.min.js"></script>
+<script src="dist/libs/jquery-ui/jquery-ui.min.js"></script>
+<!--bootstrap-->
+<script src="dist/libs/bootstrap/js/popper.min.js"></script>
+<script src="dist/libs/bootstrap/js/bootstrap.min.js"></script>
+<!--owl carousel-->
+<script src="dist/libs/owl-carousel/owl.carousel.min.js"></script>
+<!--custom js-->
+<script src="dist/js/all.min.js"></script>
+</html>
